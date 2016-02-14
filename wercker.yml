@@ -8,4 +8,4 @@ build:
     - script:
         name: python unit test
         code: |
-          py.test app_test.py
+          py.test test_app.py
