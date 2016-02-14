@@ -1,0 +1,11 @@
+box: python:3.5-slim
+
+build:
+
+  steps:
+    - pip-install
+
+    - script:
+        name: python unit test
+        code: |
+          py.test app_test.py
